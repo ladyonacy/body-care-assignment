@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+image{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+}
+
+body{
+    font-family: Lato;
+    background-image: url("Homepage.png");
+    
+}
+
+.signin{
+    align-items: center;
+    margin: 100px 20px;
+    border-radius: 5px;
+    width: 460px;
+    background-color:  rgba(255,255,255,0.4);
+    padding: 80px;
+
+}
+
+.eye-toggle
+{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: url("7123025_logo_google_g_icon.png");
+}
+
+.register
+{
+    align-items: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 121, 29);
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+.input{
+    margin: 10px 0;
+}
+
+
+
+input{
+    
+    display: block;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+.password{
+    position: relative;
+}
+
+.visibilty-ico{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    opacity: 0.4;
+}
+
+.with-google
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 5px 60px;
+    background-color: transparent;
+    color: rgb(78, 121, 29);
+    border: 1px solid rgb(78, 121, 29);
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+form a{
+    color: rgb(78, 121, 29);
+}
+
+.already{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0 20px;
+}
